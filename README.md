@@ -8,6 +8,6 @@ This repository documents my journey learning Python.
 - Data analysis basics
 
 ## Structure
-- basics/: weekly practice
+- practice/: weekly practice
 - projects/: small independent projects
  python-learning-journey
