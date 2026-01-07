@@ -1,0 +1,46 @@
+# Number Guessing Game
+print("Guess the number between 1 and 100 in 5 tries!")
+num = 67
+
+#Round 1
+guess = int(input("Guess a number: "))
+if guess == num:
+  print("You win!!!")
+elif guess < num:
+  print("Too low :( Guess again!")
+elif guess > num: 
+  print("Too high :( Guess again!")
+
+#Round 2
+guess = int(input("Guess a number: "))
+if guess == num:
+  print("You win!!!")
+elif guess < num:
+  print("Too low :( Guess again!")
+elif guess > num: 
+  print("Too high :( Guess again!")
+
+#Round 3
+guess = int(input("Guess a number: "))
+if guess == num:
+  print("You win!!!")
+elif guess < num:
+  print("Too low :( Guess again!")
+elif guess > num: 
+  print("Too high :( Guess again!")
+
+#Round 4
+guess = int(input("Guess a number: "))
+if guess == num:
+  print("You win!!!")
+elif guess < num:
+  print("Too low :( Guess again!")
+elif guess > num: 
+  print("Too high :( Guess again!")
+
+# Round 5
+guess = int(input("Guess a number: "))
+if guess == num:
+  print("You win!!!")
+else:
+  pring("You Lose :(")
