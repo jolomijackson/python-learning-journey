@@ -1,0 +1,51 @@
+# Number Guessing Game using nested if-else
+print("Guess the number between 1 and 100 in 5 tries!")
+num = 39
+
+#Round 1
+guess = int(input("Guess a number: "))
+if guess == num:
+  print("You win!!!")
+else:
+  if guess < num:
+    print("Too low :( Guess again!")
+  else:
+    print("Too high :( Guess again!")
+
+  # Round 2
+  guess = int(input("Guess a number: "))
+  if guess == num:
+    print("You win!")
+  else:
+    if guess < num:
+      print("Too low :( Guess again!")
+    else:
+      print("Too high :( Guess again!")
+
+    # Round 3
+    guess = int(input("Guess a number: "))
+    if guess == num:
+      print("You win!")
+    else:
+      if guess < num:
+        print("Too low :( Guess again!")
+      else:
+        print("Too high :( Guess again!")
+
+      # Round 4
+      guess = int(input("Guess a number: "))
+      if guess == num:
+        print("You win!")
+      else:
+        if guess < num:
+          print("Too low :( Guess again!")
+        else:
+          print("Too high :( Guess again!")
+
+        # Round 5
+        guess = int(input("Guess a number: "))
+        if guess == num:
+          print("You win!!!")
+        else:
+          print("You Lose :(")
+# Note: Indentation controls logic.
