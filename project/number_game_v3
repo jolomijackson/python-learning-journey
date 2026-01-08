@@ -1,0 +1,52 @@
+# Number Guessing Game with random number
+import random
+
+print("Guess the number between 1 and 100 in 5 tries!")
+num = random.randint(1, 100)
+
+#Round 1
+guess = int(input("Guess a number: "))
+if guess == num:
+  print("You win!!!")
+else:
+  if guess < num:
+    print("Too low :( Guess again!")
+  else:
+    print("Too high :( Guess again!")
+
+  # Round 2
+  guess = int(input("Guess a number: "))
+  if guess == num:
+    print("You win!")
+  else:
+    if guess < num:
+      print("Too low :( Guess again!")
+    else:
+      print("Too high :( Guess again!")
+
+    # Round 3
+    guess = int(input("Guess a number: "))
+    if guess == num:
+      print("You win!")
+    else:
+      if guess < num:
+        print("Too low :( Guess again!")
+      else:
+        print("Too high :( Guess again!")
+
+      # Round 4
+      guess = int(input("Guess a number: "))
+      if guess == num:
+        print("You win!")
+      else:
+        if guess < num:
+          print("Too low :( Guess again!")
+        else:
+          print("Too high :( Guess again!")
+
+        # Round 5
+        guess = int(input("Guess a number: "))
+        if guess == num:
+          print("You win!!!")
+        else:
+          print("You Lose :( The number is: ", num)
