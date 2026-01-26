@@ -29,6 +29,16 @@ def add_greetings(names):
 
 print(add_greetings(["Owen", "Max", "Sophie"]))
 
+# Exponents with 2 lists
+def exponents(bases, powers):
+  answers = []
+  for base in bases:
+    for power in powers:
+      answers.append(base ** power)
+  return answers
+
+print(exponents([2, 3, 4], [1, 2, 3]))
+
 # Removing the first value if it's even
 def delete_starting_evens(my_list):
   while len(my_list) > 0 and my_list[0] % 2 == 0:
