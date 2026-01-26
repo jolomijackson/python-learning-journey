@@ -19,3 +19,12 @@ def divisible_by_ten(nums):
   return count
 
 print(divisible_by_ten([20, 25, 30, 35, 40]))
+
+# Adding greetings to names in a list
+def add_greetings(names):
+  greeting = []
+  for name in names:
+    greeting.append("Hello, " + name)
+  return greeting
+
+print(add_greetings(["Owen", "Max", "Sophie"]))
