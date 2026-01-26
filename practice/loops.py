@@ -38,7 +38,7 @@ def delete_starting_evens(my_list):
 print(delete_starting_evens([4, 8, 10, 11, 12, 15]))
 print(delete_starting_evens([4, 8, 10]))
 
-#
+# Selecting values with odd index from a list
 #Write your function here
 def odd_indices(my_list):
   odd_index = []
@@ -47,5 +47,12 @@ def odd_indices(my_list):
       odd_index.append(my_list[index])
   return odd_index
 
-#Uncomment the line below when your function is done
+OR
+
+def odd_indices(my_list):
+  odd_index = []
+  for index in range(1, len(my_list), 2):
+    odd_index.append(my_list[index])
+  return odd_index
+  
 print(odd_indices([4, 3, 7, 10, 11, -2]))
