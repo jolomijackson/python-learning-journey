@@ -66,3 +66,29 @@ def odd_indices(my_list):
   return odd_index
   
 print(odd_indices([4, 3, 7, 10, 11, -2]))
+
+# Finding the list with a larger sum
+def larger_sum(lst1, lst2):
+  sum1 = 0
+  sum2 = 0
+  for num in lst1:
+    sum1 += num
+  for num in lst2:
+    sum2 += num
+  if sum1 >= sum2:
+    return lst1
+  else:
+    return lst2
+  
+print(larger_sum([1, 9, 5], [2, 3, 7]))
+
+# Number over 9000
+def over_nine_thousand(lst):
+  lst_sum = 0
+  for num in lst:
+    lst_sum += num
+    if lst_sum > 9000:
+      break
+  return lst_sum
+  
+print(over_nine_thousand([8000, 900, 120, 5000]))
