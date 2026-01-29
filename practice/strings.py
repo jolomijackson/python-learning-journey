@@ -18,3 +18,10 @@ def password_generator(first_name, last_name):
 
 temp_password = password_generator("Reiko", "Matsuki")
 print(temp_password)
+
+# Editing string using slicing and concatenation
+first_name = "Bob"
+last_name = "Daily"
+
+fixed_first_name = "R" + first_name[1:]
+print(fixed_first_name)
