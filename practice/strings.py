@@ -25,3 +25,6 @@ last_name = "Daily"
 
 fixed_first_name = "R" + first_name[1:]
 print(fixed_first_name)
+
+# Using backslash to include " in the string
+password = "theycallme\"crazy\"91"
