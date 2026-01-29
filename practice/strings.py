@@ -28,3 +28,12 @@ print(fixed_first_name)
 
 # Using backslash to include " in the string
 password = "theycallme\"crazy\"91"
+
+# Counting a string without len function
+def get_length(string):
+  counter = 0
+  for num in string:
+    counter += 1
+  print(counter)
+
+get_length("test")
