@@ -29,6 +29,17 @@ print(fixed_first_name)
 # Using backslash to include " in the string
 password = "theycallme\"crazy\"91"
 
+# Checking for a letter in a word
+def letter_check(word, letter):
+  for alph in word:
+    if alph == letter:
+      return True
+  return False
+
+print(letter_check("strawberry", "a"))
+print(letter_check("strawberry", "o"))
+
+
 # Counting a string without len function
 def get_length(string):
   counter = 0
