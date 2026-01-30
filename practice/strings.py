@@ -65,3 +65,22 @@ def get_length(string):
   print(counter)
 
 get_length("test")
+
+# Generating username and password
+def username_generator(first_name, last_name):
+  if len(first_name) > 3:
+    first_name = first_name[:3]
+  if len(last_name) > 4:
+    last_name = last_name[:4]
+  user_name = first_name + last_name
+  return user_name
+
+def password_generator(user_name):
+  password = ""
+  for index in range(0, len(user_name)):
+    password += user_name[index - 1]
+  return password 
+
+username = username_generator("Jolomi", "Jackson")
+print(username)
+print(password_generator(username))
