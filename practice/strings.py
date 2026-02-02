@@ -84,3 +84,19 @@ def password_generator(user_name):
 username = username_generator("Jolomi", "Jackson")
 print(username)
 print(password_generator(username))
+
+# Formatting methods
+poem_title = "spring storm"
+poem_author = "William Carlos Williams"
+
+## Changes string to title form
+poem_title_fixed = poem_title.title()
+print(poem_title_fixed)
+
+## Changes string to upper case
+poem_author_fixed = poem_author.upper()
+print(poem_author_fixed)
+
+## Changes string to lower case
+poem_author_fixed2 = poem_author.lower()
+print(poem_author_fixed2)
