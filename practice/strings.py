@@ -152,3 +152,5 @@ winter_trees_lines = ['All the complicated details', 'of the attiring and', 'the
 
 winter_trees_full = "\n".join(winter_trees_lines)
 print(winter_trees_full)
+
+# Stripping and joining with list comprehension
